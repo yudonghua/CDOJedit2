@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pc.cdojedit.MainActivity">
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_run"
+        android:title="action_run"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/ic_media_play"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_up"
+        android:title="action_up"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/arrow_up_float"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_down"
+        android:title="action_down"
+        android:orderInCategory="80"
+        android:icon="@android:drawable/arrow_down_float"
+        app:showAsAction="always" />
+
+</menu>
