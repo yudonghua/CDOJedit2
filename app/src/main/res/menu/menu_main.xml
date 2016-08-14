@@ -7,6 +7,11 @@
         android:orderInCategory="100"
         android:title="save"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="search"
+        app:showAsAction="never" />
     <item android:id="@+id/action_run"
         android:title="action_run"
         android:orderInCategory="80"
